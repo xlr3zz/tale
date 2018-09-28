@@ -1,14 +1,14 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title:          Dong Hyun's Blog
+description:    " Java Developer 2018.04.01 ~ ing "
+baseurl:        ""
+url:            "https://xlr3zz.github.io"
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Dong Hyun
+  url:          
+  email:        xlr3zz@naver.com
 
 # Build settings
 markdown:       kramdown
