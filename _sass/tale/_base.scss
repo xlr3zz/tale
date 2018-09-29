@@ -24,6 +24,10 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+pre, code, tt, kbd {
+  font-family: $monospace-font-family;
+}
+
 h1,
 h2,
 h3,
