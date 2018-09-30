@@ -5,5 +5,8 @@ author: "Dong Hyun"
 permalink: /tags/
 ---
 
-
-# 태그..
+<ul>
+    {% for tag in site.tags %}
+    <li><a href="{{ tag.url }}">{{ tag.name }}</a></li>
+    {% endfor %}
+</ul>
