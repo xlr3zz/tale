@@ -4,14 +4,8 @@ layout: default
 <h1>Posts by "<em>{{ page.name }}</em>"</h1>
 <ul class="post-list">
     {% for post in site.posts %}
-<<<<<<< HEAD
     	{% if post.tags conatins page.name %}
     		<li class="post-item"></li>
 		{% endif %}
-=======
-    	{% if post.tags contains page.name %}
-    		
-    	{% endif %}
->>>>>>> 0b20c3945be9e694d8d832a3872dd27ba1e33462
     {% endfor %}
 </ul>
