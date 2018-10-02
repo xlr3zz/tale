@@ -2,7 +2,7 @@
 <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
   <div class="post">
     <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-    <h4 class="catalogue-title">{{ post.title }}</h1>
+    <h4 class="catalogue-title">{{ post.title }}</h1><br><br>
 
     <p>
       {{ post.content | strip_html | truncatewords: 30 }}
