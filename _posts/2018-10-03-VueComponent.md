@@ -43,7 +43,7 @@ tags: [vue]
 ![전역 컴포넌트](https://xlr3zz.github.io/assets/images/Component.PNG)
 
 
-- 실행결과
+<p style="text-align:center; font-size:20px;">실행 결과</p>
 ![실행 결과](https://xlr3zz.github.io/assets/images/CompoResult.PNG)
 
 #### 처리과정
@@ -73,7 +73,7 @@ tags: [vue]
 ![지역 컴포넌트](https://xlr3zz.github.io/assets/images/localComponent.PNG)
 
 
-- 실행 결과
+<p style="text-align:center; font-size:20px;">실행 결과</p>
 ![실행 결과](https://xlr3zz.github.io/assets/images/localResult.PNG)
 
 
@@ -82,7 +82,7 @@ tags: [vue]
 
 ![전역 컴포넌트와 지역 컴포넌트의 차이](https://xlr3zz.github.io/assets/images/compareComponent.PNG)
 
-<p style="float:center;">실행 결과</p>
+<p style="text-align:center; font-size:20px;">실행 결과</p>
 ![실행 결과](https://xlr3zz.github.io/assets/images/compareResult.PNG)
 
 #### 결론
