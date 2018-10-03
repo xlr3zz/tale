@@ -1,6 +1,6 @@
 ---
 layout: post
-title:
+title: "태그"
 author: "Dong Hyun"
 permalink: /tags/
 ---
