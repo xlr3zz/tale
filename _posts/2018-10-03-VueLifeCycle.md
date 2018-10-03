@@ -80,6 +80,8 @@ created
 mounted
 updated
 ```
+
+`
 mounted에서 데이터 변경 유무에 따라서 updated가 호출한다.
 `
 

@@ -82,7 +82,7 @@ tags: [vue]
 
 ![전역 컴포넌트와 지역 컴포넌트의 차이](https://xlr3zz.github.io/assets/images/compareComponent.PNG)
 
-- 실행결과
+==실행 결과==
 ![실행 결과](https://xlr3zz.github.io/assets/images/compareResult.PNG)
 
 #### 결론
