@@ -82,10 +82,11 @@ tags: [vue]
 
 ![전역 컴포넌트와 지역 컴포넌트의 차이](https://xlr3zz.github.io/assets/images/compareComponent.PNG)
 
-==실행 결과==
+<p style="float:center;">실행 결과</p>
 ![실행 결과](https://xlr3zz.github.io/assets/images/compareResult.PNG)
 
 #### 결론
+
 `
 전역 컴포넌트는 한 번 등록하면 어느 인스턴스에서도 사용할 수 있다.
 `
