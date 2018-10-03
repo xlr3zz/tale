@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vue.js Lyfe Cycle"
+title: "Vue 생명주기"
 tags: [vue]
 ---
 
