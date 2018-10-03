@@ -5,9 +5,6 @@ tags: [vue]
 ---
 
 
-## Vue Life Cycle
-
-
 #### 뷰 라이프 사이클 다이어그램
 ![Life Cycle](https://xlr3zz.github.io/assets/images/lifeC.jpg)
 
