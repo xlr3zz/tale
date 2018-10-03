@@ -62,6 +62,7 @@ computed,watch와 같은 속성을 사용해야 합니다.
 뷰 인스턴스가 파괴되고나서 호출되는 단계입니다. 뷰 인스턴스에서 정의한 모든 속성이
 제거되고 하위에 선언한 인스턴스들 또한 모두 파괴됩니다.
 ```
+
 #### 라이프 사이클 예제
 ![Life Cycle Ex](https://xlr3zz.github.io/assets/images/LifeEx1.PNG)
 
