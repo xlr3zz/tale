@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "javaScript 2018-11-20"
+title: "javaScript"
 tags: [javascript]
 ---
  <br/><br/><br/>
