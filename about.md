@@ -5,8 +5,8 @@ author: "Chester"
 permalink: /about/
 ---
 
-#### 내 소개
+#### 
 
 ```
- 18.04.01 ~ 
+ JavaScript 스터디 2019.03.17 시작
 ```
