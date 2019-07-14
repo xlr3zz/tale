@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Webpack Entry"
+title: "Webpack 1Day"
 tags: [webpack]
 ---
 
