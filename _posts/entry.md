@@ -1,3 +1,7 @@
+layout: post
+title: "Webpack Entry"
+tags: [webpack]
+
 ## webpack
 
 ***
@@ -138,5 +142,5 @@ resolve는 오른쪽에서 왼쪽으로  파일 위치를 구성해가며 유효
 
   path.resolve('wwwroot', 'static_files/png/', '../gif/image.gif');
   결과 : /home/myself/node/wwwroot/static_files/gif/image.gif
-  
+
 ```
