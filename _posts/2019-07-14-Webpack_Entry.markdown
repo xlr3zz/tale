@@ -4,8 +4,6 @@ title: "Webpack Entry"
 tags: [webpack]
 ---
 
-## webpack
-
 ***
 `
 Entry

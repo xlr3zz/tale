@@ -1,4 +1,4 @@
 ---
-name: Webpack
+name: webpack
 title: '웹팩'
 ---

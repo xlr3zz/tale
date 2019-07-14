@@ -1,4 +1,4 @@
 ---
-name: NodeJS
+name: Node Js
 title: '노드'
 ---
