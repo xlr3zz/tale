@@ -9,12 +9,17 @@ layout: default
 </div>
 
 <div class="pagination">
+  <ul>
   {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+      <li>
+        <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+      </li>
   {% endif %}
   {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+      <li>
+        <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+      </li>
   {% endif %}
-
+  </ul>
   <a href="#" class="top">Top</a>
 </div>
