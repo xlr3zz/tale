@@ -3,17 +3,13 @@ layout: default
 ---
 
 <div class="catalogue">
-  <ul>
   {% for post in paginator.posts %}
-    <li>
       <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
         <div>
           <h4 class="catalogue-title">{{ post.title }}</h4>
         </div>
       </a>
-    </li>
   {% endfor %}
-  </ul>
 </div>
 
 <div class="pagination">

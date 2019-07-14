@@ -46,6 +46,7 @@ loader에서 모듈 로딩 순서는 배열의 요소 오른쪽에서 왼쪽으�
         'expose-loader?Backbone'
       , 'imports-loader?_=underscore,jquery'  
       // 순서대로 (1) jquery , (2) underscore 로딩
+      // expose-loader , imports-loader 는 nodejs에서..!
   ]
 }
 ```
@@ -63,11 +64,36 @@ loader에서 모듈 로딩 순서는 배열의 요소 오른쪽에서 왼쪽으�
 ***
 
 `
-expose-loader
+Babel Loader - ES6
 `
 
-***
+- preset : Babel 플러그인 리스트
+
+```
+  module : {
+    rules : [{
+        test : /\.js$/
+      , use  : [{
+          loader  : 'babel-loader'
+        , options : {
+            presets : [
+              ['es2015' , 'react' , {modules : false}]
+            ]
+        }  
+      }]  
+    }]
+  };
+```
+
+```
+   .bablerc < 파일명
+
+   {
+     "presets" : ["react" , "es2015"]
+   }
+
+```
 
 `
-imports-loader
+위와 같이 미리 설정 가능
 `
