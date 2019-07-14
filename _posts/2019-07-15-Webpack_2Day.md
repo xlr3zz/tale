@@ -14,21 +14,60 @@ Webpack Loader
   로딩이 가능하다.
 
 ```
-  module.exports = {
-      entry : {
-        // ...
-      },
-      output : {
-        // ...
-      },
-      module : {
-          rules : [
-            {
-                  test : /\.css$/
-                , use  : ['style-loader' , 'css-loader']
-            }
-          ]
-      }
-
-  };
+1  module.exports = {
+2      entry : {
+3        // ...
+4      },
+5      output : {
+6        // ...
+7      },
+8      module : {
+9          rules : [
+10            {
+11                  test : /\.css$/
+12                , use  : ['style-loader' , 'css-loader']
+13            }
+14          ]
+15      }
+16  };
 ```
+
+> 11라인 - 확장자명이 css인 모든 파일에 대해서  
+> 12라인 - style-loader , css-loader를 사용하겠다
+
+`
+loader에서 모듈 로딩 순서는 배열의 요소 오른쪽에서 왼쪽으로 진행된다.
+`
+
+```
+{
+    test : /backbone/
+  , use  : [
+        'expose-loader?Backbone'
+      , 'imports-loader?_=underscore,jquery'  
+      // 순서대로 (1) jquery , (2) underscore 로딩
+  ]
+}
+```
+
+`
+위 설정 파일을 webpack 으로 번들링 한 결과물은 아래와 같다.
+`
+
+```
+  var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;
+  var _ = __webpack_require__(0);
+  var jquery = __webpack_require__(1);
+```
+
+***
+
+`
+expose-loader
+`
+
+***
+
+`
+imports-loader
+`
