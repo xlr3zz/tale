@@ -6,5 +6,5 @@ permalink: /about/
 ---
 
 ```
- JavaScript 스터디 2019.03.17 시작
+ 2019.07.14
 ```
